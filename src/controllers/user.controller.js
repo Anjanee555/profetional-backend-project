@@ -168,7 +168,7 @@ const logoutUser = asyncHandler(async(req,res) => {
         req.user._id,
         {
             $set: {
-                refreshToken: undefined
+                refreshToken: 1
             }
         },
         {
@@ -461,7 +461,7 @@ const getWatchHistory = asyncHandler(async (req,res) => {
         user[0].watchHistory, 
         "User watch history fetched successfully"
     ))
-})
+}) 
 
 export 
 {
