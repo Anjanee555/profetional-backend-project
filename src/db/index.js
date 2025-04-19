@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 dotenv.config()
 const connectDB  = async () => {
     try {
-        const connectionInstance = await mongoose.connect(`mongodb+srv://anjaneekumar76076:VVcaW6N55lxWQY4E@cluster0.oycvgir.mongodb.net/`)
+        const connectionInstance = await mongoose.connect(`mongodb+srv://anjanee:Av7cNbc1PLDUSoQT@cluster0.xgs7bhx.mongodb.net/`)
         console.log(`\n MongoDb connected `);
         //console.log(connectionInstance); do it for knowledge 
     } catch (error) {
